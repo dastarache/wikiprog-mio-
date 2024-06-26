@@ -1,0 +1,72 @@
+[]=carpeta
+{}=archivo
+<->=asociada a otro archivo 
+estructura de wikiprog de carpetas y archivos
+[]:css
+([img])
+({estilo.css})  <-> plantilla.php
+
+[]:js
+({funciones.js}) <-> plantilla.php
+
+
+{}:index.php <->
+{}:controlador.php <-> plantilla.php
+{}:seccion1.php <-> funciones.js
+{}:seccion2.php <-> iniciar.php
+{}:seccion3.php <->
+{}:seccion4.php <-> guardar_cursos.php
+{}:seccion5.php <-> registro.php
+{}:seccion6.php <->
+{}:seccion7.php <->
+{}:seccion8.php <->
+{}:seccion9.php <->
+{}:seccion10.php <->
+{}:seccion11.php <->
+{}:seccion12.php <->
+{}:registro.php <->
+{}:plantilla.php <->
+{}:iniciar.php <-> index.php
+{}:guardar_cursos.php
+{}:get_lessons.php
+{}:get_courses.php
+
+
+
+
+/wikiprog
+    index.php
+
+    /models
+        guardar_cursos.php
+        get_lessons.php
+        get_courses.php
+
+    /views
+        seccion1.php
+        seccion2.php
+        seccion3.php
+        seccion4.php
+        seccion5.php
+        seccion6.php
+        seccion7.php
+        seccion8.php
+        seccion9.php
+        seccion10.php
+        seccion11.php
+        seccion12.php
+        registro.php
+        iniciar.php
+        plantilla.php
+
+    /controllers
+        controlador.php
+
+    /assets
+        /css
+            estilo.css
+        /js
+            funciones.js
+        /img
+
+
